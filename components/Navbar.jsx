@@ -18,23 +18,34 @@ const Navbar = () => {
       <Image 
       src="/../public/assets/navLogo.png" 
       alt="/" 
-      width='90' 
+      width='75' 
       height='50' 
       />
         <div>
           <ul className='hidden md:flex'>
             <Link href='/'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
+              <li className='ml-10 text-sm uppercase hover:border-b'>
+                Home
+                </li>
             </Link>
             <Link href='/'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
+              <li className='ml-10 text-sm uppercase hover:border-b'>
+                About
+                </li>
             </Link>
             <Link href='/'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
+              <li className='ml-10 text-sm uppercase hover:border-b'>
+                Skills
+                </li>
             </Link>
             <Link href='/'>
               <li className='ml-10 text-sm uppercase hover:border-b'>
                 Projects
+                </li>
+            </Link>
+            <Link href='/'>
+              <li className='ml-10 text-sm uppercase hover:border-b'>
+                Resume
                 </li>
             </Link>
             <Link href='/'>
@@ -81,6 +92,9 @@ const Navbar = () => {
             </Link>
             <Link href='/'>
             <li className='py-4 text-sm'>Projects</li>
+            </Link>
+            <Link href='/'>
+            <li className='py-4 text-sm'>Resume</li>
             </Link>
             <Link href='/'>
             <li className='py-4 text-sm'>Contact</li>
