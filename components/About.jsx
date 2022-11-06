@@ -20,7 +20,7 @@ const About = () => {
             I have spent the last 6 years in the construction industry as a general contractor. I have always had a knack for technology and working with computers. In 2022 I started a coding <a href=''><span className='text-[#5651e5]'>Bootcamp</span></a> following a fullstack Javascript/C#/React Web and Mobile Development course.
           </p>
           <p className='py-2 text-gray-600'>
-            Sense graduating I have been interning at Opine School furthering my learning in react. I have a lot to experience but I'm looking forward to the next couple years. As I will be able to continue to grow and discover new languages and skills.
+            Since graduating I have been interning at Opine School furthering my learning in react. I have a lot to experience but I'm looking forward to the next couple years. As I will be able to continue to grow and discover new languages and skills.
           </p>
           <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p>
         </div>
