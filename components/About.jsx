@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
+
 const About = () => {
   return (
     <div className='w-full md:h-screen p-2 flex items-center py-16'>
@@ -24,7 +25,7 @@ const About = () => {
           <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80" alt='/'></img>
+          <img className='rounded-xl' src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80" alt='/'></img>
           {/* <Image 
           src="/../public/assets/aboutPhoto.png" 
           alt="/"

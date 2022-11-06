@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import About from '../components/About'
+import Contact from '../components/Contact'
 import  Main  from '../components/Main'
 import Navbar from '../components/Navbar'
 import Projects from '../components/Projects'
@@ -14,11 +15,12 @@ export default function Home() {
         <title>Tyler | Software Developer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    <Navbar/>
+    <Navbar />
     <Main />
-    <About/>
-    <Skills/>
-    <Projects/>
+    <About />
+    <Skills />
+    <Projects />
+    <Contact/>
       
     </div>
   )
