@@ -5,12 +5,24 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import emailjs from '@emailjs/browser';
+import { useState } from 'react';
 
 export const ContactUs = () => {
   const form = useRef();
+  const [name , setName] = useState('');
+  const [email , setEmail] = useState('');
+  const [phone , setPhone] = useState('');
+  const [subject , setSubject] = useState('');
+  const [message , setMessage] = useState('');
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    event.preventDefault();
+
+    setName('');
+    setEmail('');
+    setPhone('');
+    setSubject('');
+    setMessage('');
 
     emailjs
       .sendForm(
@@ -96,6 +108,9 @@ export const ContactUs = () => {
                     type="text"
                     name="user_name"
                     placeholder='Enter your name'
+                    onChange={
+                      event => setName(event.target.value)}
+                    value={name}
                   />
                 </div>
                 <div className='flex flex-col'>
@@ -105,6 +120,9 @@ export const ContactUs = () => {
                     type='text'
                     name="phone_number"
                     placeholder='Enter your phone number'
+                    onChange={
+                      event => setPhone(event.target.value)}
+                    value={phone}
                   />
                     </div>
                   </div>
@@ -115,6 +133,9 @@ export const ContactUs = () => {
                     type='text'
                     name="user_email"
                     placeholder='Enter your email'
+                    onChange={
+                      event => setEmail(event.target.value)}
+                    value={email}
                   />
                 </div>
                 <div className='flex flex-col py-2'>
@@ -122,8 +143,11 @@ export const ContactUs = () => {
                   <input 
                     className='border-2 rounded-xl p-3 flex border-gray-300' 
                     type='text'
-                    id="message"
+                    name="subject"
                     placeholder='Enter your subject'
+                    onChange={
+                      event => setSubject(event.target.value)}
+                    value={subject}
                   />
                 </div>
                 <div className='flex flex-col py-2'>
@@ -131,7 +155,12 @@ export const ContactUs = () => {
                   <textarea 
                     className='border-2 rounded-xl p-3 border-gray-300' 
                     rows='10'
-                    placeholder='Message here'></textarea>
+                    name="message"
+                    placeholder='Message here'
+                    onChange={
+                      event => setMessage(event.target.value)}
+                    value={message}
+                    ></textarea>
                 </div>
                 <button className='w-full p-4 text-gray-100 mt-4'>Send Message</button>
               </form>
