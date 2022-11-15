@@ -22,7 +22,7 @@ const About = () => {
           <p className='py-2 text-gray-600'>
             Since graduating I have been interning at Opine School furthering my learning in react. I have a lot to experience but I'm looking forward to the next couple years. As I will be able to continue to grow and discover new languages and skills.
           </p>
-          <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p>
+          <a href='/#projects'><p className='py-2 text-gray-600 underline cursor-pointer'> Check out some of my latest projects.</p></a>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <img className='rounded-xl' src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80" alt='/'></img>
