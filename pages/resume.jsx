@@ -39,17 +39,17 @@ const resume = () => {
           <div className='hidden sm:block'>
             <p>
               Self Driven Learner <span className='px-1'>|</span> Software Engineer{' '}
-              <span className='px-1'>|</span>Problem Solving
+              <span className='px-1'>|</span>Problem Solver
             </p>
           </div>
           <div className='block sm:hidden'>
-            <p>Self Driven Learning</p>
+            <p>Self Driven Learner</p>
             <p className='py-2'>Software Engineer</p>
             <p>Problem Solver</p>
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated web development professional
+          Analytical, innovative, and motivated web development engineer
           with experience in customer service, team leadership, and
           multi-tasking effectiveness in fast-paced and challenging
           environments. Diverse analytical skills, team collaboration, and
@@ -65,7 +65,7 @@ const resume = () => {
           <p className='py-2'>
             <span className='font-bold'>Technical Skills</span>
             <span className='px-2'>|</span>Web and Mobile Development
-            <span className='px-2'>|</span> HTML
+            <span className='px-2'>|</span>HTML
             <span className='px-2'>|</span>CSS
             <span className='px-2'>|</span>Javascript
             <span className='px-2'>|</span>React
@@ -74,9 +74,14 @@ const resume = () => {
             <span className='px-2'>|</span>MySQL
             <span className='px-2'>|</span>Node
             <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
-            <span className='px-2'>|</span> RESTAPI
-            <span className='px-2'>|</span> .Net
+            <span className='px-2'>|</span>Firebase
+            <span className='px-2'>|</span>REST API
+            <span className='px-2'>|</span>Dot.Net
+          </p>
+          <p className='py-2'>
+            <span className='font-bold'>Amazon Web Services</span>
+            <span className='px-2'>|</span>Amazon Web Services Cloud
+            Exposure
           </p>
         </div>
 
@@ -102,7 +107,7 @@ const resume = () => {
               plugins, and design changes as needed.
             </li>
             <li>
-              Worked directly with a co-owner to understand and
+              Worked directly with co-owner to breakdown and
               implement multiple technologies and programs.
             </li>
           </ul>
