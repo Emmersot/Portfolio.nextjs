@@ -1,6 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import Image from 'next/image'
+
 
 const resume = () => {
   return (
@@ -15,7 +17,7 @@ const resume = () => {
       </Head>
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
-        <h2 className='text-center'>Resume</h2>
+      <p className='text-xl tracking-widest uppercase text-[#3F4A59]'>Resume</p>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
           <h2 className='text-center'>Tyler Emmerson</h2>
           <div className='flex'>
@@ -137,6 +139,18 @@ const resume = () => {
               Accepted feedback from peers and owners to implement suggestions into later projects.
             </li>
           </ul>
+        </div>
+      </div>
+      <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
+        <div>
+          <Image
+          className='rounded-xl group-hover:opacity-10' 
+          src='/../public/assets/transcript.png' 
+          alt='/'
+          width='940'
+          height='290'
+          />
+
         </div>
       </div>
     </>
