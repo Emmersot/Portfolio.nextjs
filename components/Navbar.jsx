@@ -4,7 +4,7 @@ import React, {useState, useEffect} from 'react'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs' 
-import NavLogo from "../public/assets/navLogo.png";
+// import NavLogo from "../public/assets/navLogo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -36,8 +36,8 @@ const Navbar = () => {
         : 'fixed w-full h-20 z-[100]'
       }
     >
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-        <Link href='/'>
+      <div className='flex justify-center items-center w-full h-full px-2 2xl:px-16'>
+        {/* <Link href='/'>
           <Image 
             src={NavLogo} 
             alt="/" 
@@ -45,13 +45,13 @@ const Navbar = () => {
             height='50'
             className='cursor-pointer' 
           />
-        </Link>
+        </Link> */}
         <div>
-          <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+          <ul style={{ color: `${linkColor}` }} className='hidden md:flex scroll-smooth' >
+            <li className='ml-10 text-sm uppercase hover:border-b scroll-smooth'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b scroll-smooth'>
               <Link href='/#about'>About</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
@@ -71,7 +71,7 @@ const Navbar = () => {
           <div
             style={{ color: `${linkColor}` }}
             onClick={handleNav} 
-            className='md:hidden cursor-pointer'
+            className='md:hidden cursor-pointer absolute right-12 h-16'
           >
             <AiOutlineMenu size={25} />
           </div>
@@ -95,14 +95,14 @@ const Navbar = () => {
         >
           <div>
             <div className='flex w-full items-center justify-between'>
-                <Link href='/'>
+                {/* <Link href='/'>
                   <Image 
                     src={NavLogo} 
                     width='87' 
                     height='35' 
                     alt='/' 
                   />
-                </Link>
+                </Link> */}
               <div 
                 onClick={handleNav} 
                 className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'
@@ -150,7 +150,7 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className='pt-40'>
-              <p className='uppercase tracking-widest text-[#5651e5]'>
+              <p className='uppercase tracking-widest text-[#64B5B0]'>
                 Let's Connect
               </p>
                 <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
