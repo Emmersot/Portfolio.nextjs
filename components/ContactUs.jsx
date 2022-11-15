@@ -42,8 +42,8 @@ export const ContactUs = () => {
 
   return (
     <div id='contact' className='w-full lg:h-screen'>
-      <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
-      <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Contact</p>
+      <div className='max-w-[1240px] m-auto px-2 py-24 w-full'>
+      <p className='text-xl tracking-widest uppercase text-[#3F4A59]'>Contact</p>
       <h2 className='py-4'>Get In Touch</h2>
       <div className='grid lg:grid-cols-5 gap-8'>
 {/* left */}
@@ -58,7 +58,8 @@ export const ContactUs = () => {
         </div>
         <div>
           <h2 className='py-2'>Tyler Emmerson</h2>
-          <p>Software Engineer</p>
+          <p className='py-4'>tyleremmerson0216@gmail.com</p>
+          <p>Portland, OR</p>
           <p className='py-4'>I am available for full-time positions. Contact me and let's talk.</p>
         </div>
       <div>
@@ -69,7 +70,7 @@ export const ContactUs = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <FaLinkedinIn />
                   </div>
                 </a>
@@ -78,7 +79,7 @@ export const ContactUs = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <FaGithub />
                   </div>
                 </a>
@@ -162,7 +163,7 @@ export const ContactUs = () => {
                     value={message}
                     ></textarea>
                 </div>
-                <button className='w-full p-4 text-gray-100 mt-4'>Send Message</button>
+                <button className='w-full p-4 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#3F4A59] to-[#A3E3C6] text-white'>Send Message</button>
               </form>
             </div>
           </div>
@@ -170,7 +171,7 @@ export const ContactUs = () => {
         <div className='flex justify-center py-12'>
           <Link href='/'>
             <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <HiOutlineChevronDoubleUp className='text-[#5651e5] size={30} '/>
+              <HiOutlineChevronDoubleUp className='text-[#64B5B0] size={30} '/>
             </div>
           </Link>
         </div>

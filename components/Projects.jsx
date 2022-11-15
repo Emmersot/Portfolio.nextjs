@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
 import propertyImg from '../public/assets/projects/Property.png'
 import exchangeImg from '../public/assets/projects/Exchange.png'
@@ -7,9 +5,9 @@ import ProjectItem from './ProjectItem'
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full'>
-      <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+    <div id='projects' className='w-full h-screen'>
+      <div className='max-w-[1240px] w-full h-screen mx-auto px-2 py-24'>
+        <p className='text-xl tracking-widest uppercase text-[#3F4A59]'>
           Projects
         </p>
         <h2 className='py-4'>What I've Built</h2>
@@ -27,7 +25,7 @@ const Projects = () => {
             backgroundImg={exchangeImg} 
             projectUrl='/exchange'
           />
-          {/* <ProjectItem
+          <ProjectItem
             title='Currency Exchanger'
             tech='React JS' 
             backgroundImg={exchangeImg} 
@@ -38,7 +36,7 @@ const Projects = () => {
             tech='React JS' 
             backgroundImg={exchangeImg} 
             projectUrl='/exchange'
-          /> */}
+          />
         </div>
       </div>
     </div>

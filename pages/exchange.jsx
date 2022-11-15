@@ -24,8 +24,8 @@ const exchange = () => {
     
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
-          <p>Project</p>
-          <h2>Overview</h2>
+          <p className='text-xl py-2 tracking-widest uppercase'>Project</p>
+          <h2 className='py-2'>Overview</h2>
           <p>
             This app was built using Node JS. Users
             are able to search a currency based on currency codes to retrieve a conversion rate from your starting code to your target code.
@@ -35,14 +35,14 @@ const exchange = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+            <button className='px-8 py-2 mt-4 mr-8 shadow-xl shadow-gray-400 rounded-xl uppercase bg-[#3F4A59] text-white'>Code</button>
           </a>
           <a
             href='https://tyleremmerson.com/Currency-Exchange'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4'>Demo</button>
+            <button className='px-8 py-2 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-[#3F4A59] text-white'>Demo</button>
           </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>

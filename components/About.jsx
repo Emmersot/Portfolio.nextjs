@@ -7,20 +7,17 @@ const About = () => {
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
+          <p className='uppercase text-xl tracking-widest text-[#3F4A59]'>
             About
           </p>
           <h2 className='py-4'>
             Who I Am
           </h2>
           <p className='py-2 text-gray-600'>
-            // I am not your normal developer
+            I have spent the last 6 years in the construction industry as a general contractor. I have always had a knack for technology and working with computers. In 2022 I attended a coding bootcamp following a fullstack C#/React Web and Mobile Development course.
           </p>
           <p className='py-2 text-gray-600'>
-            I have spent the last 6 years in the construction industry as a general contractor. I have always had a knack for technology and working with computers. In 2022 I started a coding <a href=''><span className='text-[#5651e5]'>Bootcamp</span></a> following a fullstack Javascript/C#/React Web and Mobile Development course.
-          </p>
-          <p className='py-2 text-gray-600'>
-            Since graduating I have been interning at Opine School furthering my learning in react. I have a lot to experience but I'm looking forward to the next couple years. As I will be able to continue to grow and discover new languages and skills.
+            Since graduating I have been interning at Opine School furthering my learning. I have a lot to experience but I'm looking forward to the next couple years. I'm excited to be able to continue to grow and discover new languages and skills.
           </p>
           <a href='/#projects'><p className='py-2 text-gray-600 underline cursor-pointer'> Check out some of my latest projects.</p></a>
         </div>
