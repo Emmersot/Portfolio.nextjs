@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import propertyImg from '../public/assets/projects/Property.png';
+import exchangeImg from '../public/assets/projects/Exchange.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const property = () => {
+const exchange = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -13,12 +13,12 @@ const property = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={propertyImg}
+          src={exchangeImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Property Finders</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className='py-2'>Currency Exchange</h2>
+          <h3>HTML / Bootstrap / Node</h3>
         </div>
       </div>
     
@@ -27,22 +27,18 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for rent. You will
-            be able to view property information. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to post your own properties. 
+            This app was built using Node JS. Users
+            are able to search a currency based on currency codes to retrieve a conversion rate from your starting code to your target code.
           </p>
           <a
-            href='https://github.com/emmersot/Property-Management-Webpage'
+            href='https://github.com/emmersot/Currency-Exchange'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://tyleremmerson.com/Property-Management'
+            href='https://tyleremmerson.com/Currency-Exchange'
             target='_blank'
             rel='noreferrer'
           >
@@ -54,22 +50,19 @@ const property = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> Node Js
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> MaterialUI
+                <RiRadioButtonFill className='pr-1' /> HTML
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
+                <RiRadioButtonFill className='pr-1' /> Bootstrap
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Cloud Firestore
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase Auth 
+                <RiRadioButtonFill className='pr-1' /> jQuery
               </p>
             </div>
           </div>
@@ -82,4 +75,4 @@ const property = () => {
   );
 };
 
-export default property
+export default exchange
