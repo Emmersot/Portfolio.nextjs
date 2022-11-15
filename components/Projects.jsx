@@ -16,25 +16,29 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
 
           <ProjectItem
-            title='Property Management' 
+            title='Property Management'
+            tech='React JS'
             backgroundImg={propertyImg} 
             projectUrl='/property'
           />
           <ProjectItem
-            title='Currency Exchanger' 
+            title='Currency Exchanger'
+            tech='Node JS' 
+            backgroundImg={exchangeImg} 
+            projectUrl='/exchange'
+          />
+          {/* <ProjectItem
+            title='Currency Exchanger'
+            tech='React JS' 
             backgroundImg={exchangeImg} 
             projectUrl='/exchange'
           />
           <ProjectItem
-            title='Currency Exchanger' 
+            title='Currency Exchanger'
+            tech='React JS' 
             backgroundImg={exchangeImg} 
             projectUrl='/exchange'
-          />
-          <ProjectItem
-            title='Currency Exchanger' 
-            backgroundImg={exchangeImg} 
-            projectUrl='/exchange'
-          />
+          /> */}
         </div>
       </div>
     </div>
