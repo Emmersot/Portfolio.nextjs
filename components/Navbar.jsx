@@ -4,18 +4,21 @@ import React, {useState, useEffect} from 'react'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs' 
+import NavLogo from "../public/assets/navLogo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [shadow, setShadow] = useState(false)
+  const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState('#ecf0f3');
+  const [linkColor, setLinkColor] = useState('#1f2937');
 
   const handleNav = () => {
-    setNav(!nav)
-  }
+    setNav(!nav);
+  };
 
   useEffect(()=> {
     const handleShadow = () => {
-      if(window.scrollY >=90) {
+      if(window.scrollY >= 90) {
         setShadow(true)
       } else {
         setShadow(false)
@@ -25,18 +28,26 @@ const Navbar = () => {
   },[])
 
   return (
-    <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
+    <div 
+      style={{ backgroundColor: `${navBg}` }}
+      className={
+        shadow 
+        ? 'fixed w-full h-20 shadow-xl z-[100]' 
+        : 'fixed w-full h-20 z-[100]'
+      }
+    >
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
           <Image 
-            src="/../public/assets/navLogo.png" 
+            src={NavLogo} 
             alt="/" 
-            width='75' 
-            height='50' 
+            width='80' 
+            height='50'
+            className='cursor-pointer' 
           />
         </Link>
         <div>
-          <ul className='hidden md:flex'>
+          <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/'>Home</Link>
             </li>
@@ -57,7 +68,8 @@ const Navbar = () => {
             </li>
           </ul>
           {/* Hamburger Icon */}
-          <div 
+          <div
+            style={{ color: `${linkColor}` }}
             onClick={handleNav} 
             className='md:hidden cursor-pointer'
           >
@@ -85,8 +97,8 @@ const Navbar = () => {
             <div className='flex w-full items-center justify-between'>
                 <Link href='/'>
                   <Image 
-                    src='/../public/assets/navLogo.png' 
-                    width='60' 
+                    src={NavLogo} 
+                    width='87' 
                     height='35' 
                     alt='/' 
                   />
@@ -99,7 +111,9 @@ const Navbar = () => {
               </div>
             </div>
             <div className='border-b border-gray-300 my-4'>
-              <p className='w-[85%] md:w-[90%] py-4'>Let's build something together.</p>
+              <p className='w-[85%] md:w-[90%] py-4'>
+                Let's build something together.
+              </p>
             </div>
           </div>
           <div className='py-4 flex flex-col'>
