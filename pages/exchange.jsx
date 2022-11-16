@@ -30,20 +30,20 @@ const exchange = () => {
             This app was built using Node JS. Users
             are able to search a currency based on currency codes to retrieve a conversion rate from your starting code to your target code.
           </p>
-          <a
+          <Link
             href='https://github.com/emmersot/Currency-Exchange'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8 shadow-xl shadow-gray-400 rounded-xl uppercase bg-[#3F4A59] text-white'>Code</button>
-          </a>
-          <a
+          </Link>
+          <Link
             href='https://tyleremmerson.com/Currency-Exchange'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-[#3F4A59] text-white'>Demo</button>
-          </a>
+          </Link>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>

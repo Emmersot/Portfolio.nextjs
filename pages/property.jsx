@@ -34,20 +34,20 @@ const property = () => {
             authentication is available so you can sign-up and sign-in to your
             account with an email address in order to post your own properties. 
           </p>
-          <a
+          <Link
             href='https://github.com/emmersot/Property-Management-Webpage'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8 shadow-xl shadow-gray-400 rounded-xl uppercase bg-[#3F4A59] text-white'>Code</button>
-          </a>
-          <a
+          </Link>
+          <Link
             href='https://tyleremmerson.com/Property-Management'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-[#3F4A59] text-white'>Demo</button>
-          </a>
+          </Link>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>

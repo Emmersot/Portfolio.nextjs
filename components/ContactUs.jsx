@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link'
 import React, { useRef } from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
@@ -6,6 +7,7 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
+import contactImg from '../public/assets/contactPhoto.png'
 
 export const ContactUs = () => {
   const form = useRef();
@@ -50,17 +52,17 @@ export const ContactUs = () => {
     <div className='col-span lg:col-span-2 w-full height-full shadow-xl shadow-gray-400 rounded-xl p-4 '>
       <div className='lg:p-4 h-full'>
         <div>
-          <img
+          <Image
             className='rounded-xl' 
-            src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80" 
+            src={contactImg} 
             alt="/" >
-          </img>
+          </Image>
         </div>
         <div>
           <h2 className='py-2'>Tyler Emmerson</h2>
           <p className='py-4'>tyleremmerson0216@gmail.com</p>
           <p>Portland, OR</p>
-          <p className='py-4'>I am available for full-time positions. Contact me and let's talk.</p>
+          <p className='py-4'>I am available for full-time positions. Contact me and let&apos;s talk.</p>
         </div>
       <div>
         <p className='uppercase pt-8'>Connect With Me</p>
