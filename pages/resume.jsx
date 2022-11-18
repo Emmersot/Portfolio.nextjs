@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import Image from 'next/image'
+import transcriptImg from '../public/assets/transcript.png'
 
 
 const resume = () => {
@@ -94,7 +95,7 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-            Opine School Internship
+            Opine Internship
             </span>
             <span className='px-2'>|</span>Remote
           </p>
@@ -144,8 +145,8 @@ const resume = () => {
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <div>
           <Image
-          className='rounded-xl group-hover:opacity-10' 
-          src='/../public/assets/transcript.png' 
+          className='rounded-xl group-hover:opacity-10 p-4' 
+          src={transcriptImg} 
           alt='/'
           width='940'
           height='290'
