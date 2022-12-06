@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import Image from 'next/image'
-import transcriptImg from '../public/assets/transcript.png'
+import transcriptImg from '../public/assets/images/transcript.png'
 
 
 const resume = () => {
@@ -103,15 +103,15 @@ const resume = () => {
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
+              understanding of HTML, CSS, and JavaScript
             </li>
             <li>
               Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
+              plugins, and design changes as needed
             </li>
             <li>
               Worked directly with co-owner to breakdown and
-              implement multiple technologies and programs.
+              implement multiple technologies and programs
             </li>
           </ul>
         </div>
@@ -134,10 +134,10 @@ const resume = () => {
             </li>
             <li>
               Collaborated with owners, contractors, and business personnel to ensure
-              that projects meet expectations and specifications.
+              that projects meet expectations and specifications
             </li>
             <li>
-              Accepted feedback from peers and owners to implement suggestions into later projects.
+              Accepted feedback from peers and owners to implement suggestions into later projects
             </li>
           </ul>
         </div>

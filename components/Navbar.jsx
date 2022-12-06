@@ -37,33 +37,24 @@ const Navbar = () => {
       }
     >
       <div className='flex justify-center items-center w-full h-full px-2 2xl:px-16'>
-        {/* <Link href='/'>
-          <Image 
-            src={NavLogo} 
-            alt="/" 
-            width='80' 
-            height='50'
-            className='cursor-pointer' 
-          />
-        </Link> */}
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex scroll-smooth' >
-            <li className='ml-10 text-sm uppercase hover:border-b scroll-smooth'>
+            <li className='ml-10 text-sm uppercase scroll-smooth'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b scroll-smooth'>
+            <li className='ml-10 text-sm uppercase scroll-smooth'>
               <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase'>
               <Link href='/resume'>Resume</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
@@ -95,14 +86,6 @@ const Navbar = () => {
         >
           <div>
             <div className='flex w-full items-center justify-between'>
-                {/* <Link href='/'>
-                  <Image 
-                    src={NavLogo} 
-                    width='87' 
-                    height='35' 
-                    alt='/' 
-                  />
-                </Link> */}
               <div 
                 onClick={handleNav} 
                 className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'
@@ -111,9 +94,6 @@ const Navbar = () => {
               </div>
             </div>
             <div className='border-b border-gray-300 my-4'>
-              <p className='w-[85%] md:w-[90%] py-4'>
-                Let&apos;s build something together.
-              </p>
             </div>
           </div>
           <div className='py-4 flex flex-col'>
