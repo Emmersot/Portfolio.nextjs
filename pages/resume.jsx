@@ -67,24 +67,22 @@ const resume = () => {
           <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
           <p className='py-2'>
             <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>Web and Mobile Development
             <span className='px-2'>|</span>HTML
             <span className='px-2'>|</span>CSS
             <span className='px-2'>|</span>Javascript
             <span className='px-2'>|</span>React
-            <span className='px-2'>|</span>Next JS
+            <span className='px-2'>|</span>AWS
             <span className='px-2'>|</span>C#
             <span className='px-2'>|</span>MySQL
             <span className='px-2'>|</span>Node
-            <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span>Firebase
+            <span className='px-2'>|</span>Docker
             <span className='px-2'>|</span>REST API
             <span className='px-2'>|</span>Dot.Net
           </p>
           <p className='py-2'>
             <span className='font-bold'>Amazon Web Services</span>
-            <span className='px-2'>|</span>Amazon Web Services Cloud
-            Exposure
+            <span className='px-2'>|</span>Studying AWS Certified Cloud Practitioner
+            
           </p>
         </div>
 
@@ -92,52 +90,59 @@ const resume = () => {
           Professional Experience
         </h5>
         {/* Experience */}
+
+        {/* Made In Oregon */}
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold italic'>
-            Opine Internship
-            </span>
-            <span className='px-2'>|</span>Remote
+            <span className='font-bold'>Made In Oregon</span>
+            <span className='px-2'>|</span>Portland, OR
           </p>
-          <p className='py-1 italic'>Fullstack Software Engineer (2022 - Current)</p>
+          <p className='py-1 italic'>IT Technician (June - Current)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript
+              Enforced secure data transfer protocols and encryption mechanisms and ensured user data remained protected
             </li>
             <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed
+              Led the migration from RetailPro POS system to Shopify, rebuilding the stock and employee databases
             </li>
             <li>
-              Worked directly with co-owner to breakdown and
-              implement multiple technologies and programs
+              Teamed up with current clients to understand needs for improved functionality, and communicated with engineers and clients to develop enhancements to boost client satisfaction
+            </li>
+            <li>
+              Onboarded and managed privileged accounts across network environment through IAM technologies
             </li>
           </ul>
         </div>
-
-        {/*  */}
-        <h5 className='text-center underline text-[18px] py-4'>
-          Other Professional Experience
-        </h5>
-      
-        {/* General Contractor */}
+        {/* A Billion Trees */}
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold'>Contractors Employment Services</span>
+            <span className='font-bold'>A Billion Trees</span>
             <span className='px-2'>|</span>Portland, OR
           </p>
-          <p className='py-1 italic'>General Contractor (2015 - 2022)</p>
+          <p className='py-1 italic'>Software Engineer (Feb-July 2023)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Ability to manage several complex projects simultaneously
+            Contracted as a lead design engineer for the initial version of an e-commerce site leveraging both custom React/Redux web components as well as Shopify integration
+            </li>
+          </ul>
+        </div>
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+            Opine School
+            </span>
+            <span className='px-2'>|</span>Remote
+          </p>
+          <p className='py-1 italic'>Software Engineer (2022 - 2023)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+              Built custom chat system with JavaScript and React, increasing user engagement by 31% and improving real-time communication capabilities
             </li>
             <li>
-              Collaborated with owners, contractors, and business personnel to ensure
-              that projects meet expectations and specifications
+              Performed automated and manual tests to ensure the software created by developers is up to date and working properly
             </li>
             <li>
-              Accepted feedback from peers and owners to implement suggestions into later projects
+              Assisted the technical and business staff with the design, development, testing, implementation and maintenance of the launch of Opine School
             </li>
           </ul>
         </div>

@@ -16,10 +16,10 @@ const About = () => {
             Who I Am
           </h2>
           <p className='py-2 text-gray-600'>
-            I have spent the last 6 years in the construction industry as a general contractor. I have always had a knack for technology and working with computers. In 2022 I attended a coding bootcamp following a fullstack C#/React Web and Mobile Development course.
+            At present, I'm an IT technician for the e-commerce store Made In Oregon. With over 200 workers ranging from retail employees to shipping globally, I've been able to manage all levels of hardware, software, and network issues. I've led multiple projects in both IT work and software development while following a current passion for more network and cloud based applications. 
           </p>
           <p className='py-2 text-gray-600'>
-            Since graduating I have been interning at Opine School furthering my learning. I have a lot to experience but I&apos;m looking forward to the next couple years. I&apos;m excited to be able to continue to grow and discover new languages and skills.
+            During my time with Opine School, I gained hands-on experience coding under direction of a team, collaborating on software projects, and testing systems applications. Some of my accomplishments include developing a method to connect a cloud database to an automated emailing platform. More recently I have had the opportunity to lead the migration from RetailPro point of sale system to Shopify, rebuilding the warehouse stock and employee databases. As well as being contracted by A Billion Trees as the lead engineer creating the initial version of the e-commerce site.
           </p>
           <Link href='/#projects'><p className='py-2 text-gray-600 underline cursor-pointer'> Check out some of my latest projects.</p></Link>
         </div>

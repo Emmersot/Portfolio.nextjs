@@ -16,7 +16,7 @@ const Main = () => {
             A Full-Stack Software Engineer
           </h1>
           <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-          Currently, I&apos;m focused on building front-end web applications while learning back-end technologies. I have a 
+          Currently, I&apos;m focused on building front-end web applications while learning back-end technologies. I have a certification in mobile and web development after an 8 month bootcamp. I'm currently working on a AWS cloud practitioner certification with a larger goal of becoming a certified solutions architect. 
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
